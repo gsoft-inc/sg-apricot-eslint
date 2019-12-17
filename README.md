@@ -1,4 +1,4 @@
-# eslint-plugin-apricot
+# sg-apricot-eslint
 
 Sharegate Apricot's custom ESLint plugin.
 
