@@ -1,0 +1,29 @@
+{
+  "name": "@sharegate/eslint-plugin-apricot",
+  "version": "1.0.0",
+  "description": "ShareGate Apricot's custom ESLint plugin.",
+  "author": "Groupe Sharegate inc.",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:ci": "jest --ci --reporters=jest-junit"
+  },
+  "peerDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*"
+  },
+  "devDependencies": {
+    "jest": "24.9.0",
+    "jest-junit": "8.0.0",
+    "babel-eslint": "10.0.2",
+    "eslint": "6.2.1",
+    "@sharegate/eslint-config-recommended": "1.1.0",
+    "@sharegate/eslint-config-sort-imports": "1.0.2",
+    "@sharegate/eslint-config-strict": "1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

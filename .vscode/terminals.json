@@ -1,0 +1,10 @@
+{
+  "autorun": true,
+  "autokill": true,
+  "terminals": [
+    {
+        "name": "eslint-plugin",
+        "focus": true
+    }
+  ]
+}
