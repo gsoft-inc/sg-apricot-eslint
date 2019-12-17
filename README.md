@@ -61,7 +61,6 @@ In order to create a new rule, you must manually create 3 new files :
 
 You must also :
 - Add the rule's documentation in this README in the Plugin-Provided Rules section.
-- Add the rule's configuration in the recommended [config file](lib/configs/recommended.js).
 
 ## License
 
