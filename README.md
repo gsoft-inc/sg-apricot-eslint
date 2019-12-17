@@ -63,5 +63,7 @@ You must also :
 - Add the rule's documentation in this README in the Plugin-Provided Rules section.
 - Add the rule's configuration in the recommended [config file](lib/configs/recommended.js).
 
+## License
 
+Copyright © 2019, GSoft inc. This code is licensed under the Apache License, Version 2.0. You may obtain a copy of this license at https://github.com/gsoft-inc/gsoft-license/blob/master/LICENSE.
 
