@@ -5,7 +5,9 @@
   "author": "Groupe Sharegate inc.",
   "license": "Apache-2.0",
   "main": "lib/index.js",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "jest",
     "test:ci": "jest --ci --reporters=jest-junit"
@@ -25,5 +27,23 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsoft-inc/sg-eslint-plugin-apricot.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/gsoft-inc/sg-eslint-plugin-apricot/issues"
+  },
+  "homepage": "https://github.com/gsoft-inc/sg-eslint-plugin-apricot#readme"
 }
