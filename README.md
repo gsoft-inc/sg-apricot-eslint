@@ -39,13 +39,13 @@ Then configure the rules you want to use under the rules section.
 
 Sharegate's plugin provides the following custom rules, which are included as appropriate in all core linting configs:
 
-- [require-register-function-in-handlers](docs/rules/require-register-function-in-handlers): All handlers.js file must export a registration function named registerHandlers.
-- [require-register-function-in-reducers](docs/rules/require-register-function-in-reducers): All reducers.js file must export a registration function named registerReducers.
-- [require-register-function-in-registration](docs/rules/require-register-function-in-registration) : All registration.js file must export a registration function.
-- [no-relative-path-to-parent-directory](docs/rules/no-relative-path-to-parent-directory) : Relative path to parent directories in import statements are not allowed.
-- [strict-component-boundaries](docs/rules/strict-component-boundaries) : Do not reach into an individual component's folder for nested modules.
-- [strict-file-names](docs/rules/strict-file-names) : Do not name files with names that don't respect the naming convention.
-- [no-class-components](docs/rules/no-class-components) : Class components are forbidden. Use a Functional Component instead.
+- [require-register-function-in-handlers](docs/rules/require-register-function-in-handlers.md): All handlers.js file must export a registration function named registerHandlers.
+- [require-register-function-in-reducers](docs/rules/require-register-function-in-reducers.md): All reducers.js file must export a registration function named registerReducers.
+- [require-register-function-in-registration](docs/rules/require-register-function-in-registration.md) : All registration.js file must export a registration function.
+- [no-relative-path-to-parent-directory](docs/rules/no-relative-path-to-parent-directory.md) : Relative path to parent directories in import statements are not allowed.
+- [strict-component-boundaries](docs/rules/strict-component-boundaries.md) : Do not reach into an individual component's folder for nested modules.
+- [strict-file-names](docs/rules/strict-file-names.md) : Do not name files with names that don't respect the naming convention.
+- [no-class-components](docs/rules/no-class-components.md) : Class components are forbidden. Use a Functional Component instead.
 
 ## Maintainers
 
