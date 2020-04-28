@@ -94,7 +94,7 @@ ruleTester.run("strict-component-boundaries-in-features", rule, {
             errors: [
                 {
                     message:
-                        "When accessing a file from a parent, only the following files are allowed components/{anything}.jsx, assets, layouts/{anything}.jsx, utils/{anything}.js, actions.js. The full documentation can be found here https://gsoftdev.atlassian.net/wiki/spaces/SGSAAS/pages/826704592."
+                        "When accessing a file from a parent, only the following files are allowed components/{anything}.jsx, assets, layouts/{anything}.jsx, utils/{anything}.js, actions.js, selectors.js. The full documentation can be found here https://gsoftdev.atlassian.net/wiki/spaces/SGSAAS/pages/826704592."
                 }
             ],
             parserOptions
